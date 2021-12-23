@@ -9,12 +9,13 @@ import (
 
 func TestSimpleEquations(t *testing.T) {
 	type TestCase struct {
-		Param, Expected []int
-		Message         string
+		Param    []int
+		Expected interface{}
+		Message  string
 	}
 
 	arrTestCase := []TestCase{
-		{[]int{1, 2, 3}, []int{}, "Hasil Tidak Sesuai"},
+		{[]int{1, 2, 3}, "no solution", "Hasil Tidak Sesuai"},
 		{[]int{6, 6, 14}, []int{1, 2, 3}, "Hasil Tidak Sesuai"},
 	}
 

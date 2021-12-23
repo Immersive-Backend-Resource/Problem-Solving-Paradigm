@@ -19,7 +19,7 @@ func TestBinarySearch(t *testing.T) {
 		{[]int{1, 1, 3, 5, 5, 6, 7}, 3, 2, "Hasil Tidak Sesuai"},
 		{[]int{1, 2, 3, 5, 6, 8, 10}, 5, 3, "Hasil Tidak Sesuai"},
 		{[]int{12, 15, 15, 19, 24, 31, 53, 59, 60}, 53, 6, "Hasil Tidak Sesuai"},
-		{[]int{12, 15, 15, 19, 24, 31, 53, 59, 60}, 53, -1, "Hasil Tidak Sesuai"},
+		{[]int{12, 15, 15, 19, 24, 31, 53, 59, 60}, 100, -1, "Hasil Tidak Sesuai"},
 	}
 
 	for i := 0; i < len(arrTestCase); i++ {

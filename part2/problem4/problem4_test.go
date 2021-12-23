@@ -18,7 +18,7 @@ func TestRomanNumerals(t *testing.T) {
 		{6, "VI", "Hasil Tidak Sesuai"},
 		{9, "IX", "Hasil Tidak Sesuai"},
 		{23, "XXIII", "Hasil Tidak Sesuai"},
-		{2821, "MMXXI", "Hasil Tidak Sesuai"},
+		{2021, "MMXXI", "Hasil Tidak Sesuai"},
 		{1646, "MDCXLVI", "Hasil Tidak Sesuai"},
 	}
 
